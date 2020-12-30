@@ -12,6 +12,8 @@ class Client(TelegramClient):
         self.log = logging.getLogger(__name__)
     
 
+    
+    
     async def download(self, file, file_size, offset, limit):
         part_size_kb = utils.get_appropriated_part_size(file_size)
         part_size = int(part_size_kb * 1024)
