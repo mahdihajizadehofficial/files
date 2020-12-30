@@ -5,7 +5,7 @@ except:
   os.system("pip3 install -U -r requirements.txt")
 
 
-
+    
 from telethon.sync import TelegramClient
 from telethon.sessions import StringSession
 
